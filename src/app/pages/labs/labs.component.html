@@ -1,1 +1,17 @@
 <p>labs works!</p>
+<h1>Hola este es un ejemplo de como trabajar en angular</h1>
+<h1>Este es mi {{title}}</h1>
+<ul>
+    <li *ngFor="let taks of lista">
+        {{taks}}
+    </li>
+</ul>
+<h1 *ngIf="bandera">Solo se muiestra si bandera es verdadero</h1>
+<h1 *ngIf="!bandera">Solo se muiestra si bandera es verdadero</h1>
+<h1> {{"Hola".repeat(4)}}</h1>
+<p>La suma de 3 + 3 es {{3+3}}</p>
+<h4>Hola mi nombre es {{name}} y mi edad es {{edad}}</h4>
+<hr>
+<img src="" alt="">
+<input type="text" [value]="name" id="">
+<button [disabled]=bandera type="button" style="border-color: black;">Click me</button>
